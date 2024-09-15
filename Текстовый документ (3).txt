@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Продвижение книги 'Фантасмагория души параллель' - биографии персонажей, информация и описание.">
+    <title>Фантасмагория души параллель</title>
+    <style>
+        body {
+            background-color: #1a1a1d;
+            color: #e0e0e0;
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            color: #ffcc00;
+            font-size: 3em;
+            letter-spacing: 2px;
+        }
+        section {
+            padding: 50px;
+        }
+        .intro {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .intro h2 {
+            font-size: 2em;
+            color: #ffcc00;
+        }
+        .bio {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px 0;
+        }
+        .bio img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-bottom: 20px;
+        }
+        .bio p {
+            font-size: 1.2em;
+            max-width: 800px;
+            text-align: justify;
+        }
+        .characters {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+        .character {
+            background-color: #444;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .character h3 {
+            color: #ffcc00;
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+        footer p {
+            color: #666;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Фантасмагория души параллель</h1>
+</header>
+
+<section class="intro">
+    <h2>О книге</h2>
+    <p>«Фантасмагория души параллель» – это история о мистическом путешествии, которое размывает границы между реальностью и фантазией. Каждый персонаж – это олицетворение архетипов, скрытых глубоко в нашей душе.</p>
+</section>
+
+<section class="bio">
+    <img src="твое_изображение.jpg" alt="Автор">
+    <p>Я – автор этого произведения, исследующий тайны человеческой души и параллельные миры, которые она создает. Моя цель – подарить читателю уникальный опыт, где каждый сможет найти что-то свое, что-то, что откликнется внутри.</p>
+</section>
+
+<section class="characters">
+    <div class="character">
+        <h3>Персонаж 1: Марк</h3>
+        <p>Марк – десятиклассник, который столкнулся с необычной тайной своей матери, что оставило след на его жизни. Он обретает способность видеть то, что скрыто от других.</p>
+    </div>
+    <div class="character">
+        <h3>Персонаж 2: Сая</h3>
+        <p>Сая – молодая девушка, обладающая экстрасенсорными способностями, о которых никто не догадывается. Но Марк – единственный, кто может видеть ее дар.</p>
+    </div>
+    <!-- Добавь больше персонажей здесь -->
+</section>
+
+<footer>
+    <p>Связаться со мной: email@example.com | Телефон: +7 (123) 456-7890</p>
+</footer>
+
+</body>
+</html>
